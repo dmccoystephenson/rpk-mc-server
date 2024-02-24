@@ -16,7 +16,7 @@ RUN mkdir /rpkmcserver-build
 WORKDIR /rpkmcserver-build
 RUN wget -O BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
 RUN git config --global --unset core.autocrlf || :
-RUN java -jar BuildTools.jar --rev 1.20.4
+RUN java -jar BuildTools.jar --rev 1.19.4
 
 # Download & install community plugins -----------------------------
 WORKDIR /jars

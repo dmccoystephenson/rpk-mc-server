@@ -2,7 +2,7 @@ echo "Running 'post-create.sh' script..."
 if [ -z "$(ls -A /rpkmcserver)" ]; then
     echo "Setting up server..."
     # Copy server JAR
-    cp /rpkmcserver-build/spigot-1.20.4.jar /rpkmcserver/spigot-1.20.4.jar
+    cp /rpkmcserver-build/spigot-1.19.4.jar /rpkmcserver/spigot-1.19.4.jar
 
     # Create plugins directory
     mkdir /rpkmcserver/plugins
@@ -16,4 +16,4 @@ else
     echo "Server is already set up."
 fi
 
-java -jar /rpkmcserver/spigot-1.20.4.jar
+java -jar /rpkmcserver/spigot-1.19.4.jar
