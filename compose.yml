@@ -1,0 +1,13 @@
+services:
+  rpk-mc-server:
+    build: .
+    image: rpk-mc-server
+    container_name: rpk-mc-server
+    ports:
+      - "25565:25565"
+    restart: unless-stopped
+    volumes:
+      - rpkmcserver:/rpkmcserver
+
+volumes:
+  rpkmcserver:
