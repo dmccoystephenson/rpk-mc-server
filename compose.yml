@@ -7,7 +7,12 @@ services:
       - "25565:25565"
     restart: unless-stopped
     volumes:
-      - rpkmcserver:/rpkmcserver
+      - type: volume
+        source: rpkmcserver
+        target: /rpkmcserver
+      - type: bind
+        source: ./deposit-box
+        target: /deposit-box
 
 volumes:
   rpkmcserver:
