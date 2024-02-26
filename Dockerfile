@@ -91,6 +91,11 @@ RUN wget https://github.com/RP-Kit/RPKit/releases/download/v2.4.2/rpk-unconsciou
 RUN wget https://github.com/RP-Kit/RPKit/releases/download/v2.4.2/rpk-warp-lib-bukkit-2.4.2.jar
 # --------------------------------------------------------
 
+# Download and install other plugins -----------------------------
+RUN wget https://github.com/ViaVersion/ViaVersion/releases/download/4.9.2/ViaVersion-4.9.2.jar
+RUN wget https://github.com/ViaVersion/ViaBackwards/releases/download/4.9.1/ViaBackwards-4.9.1.jar
+# --------------------------------------------------------
+
 # Copy post-create.sh
 COPY ./post-create.sh /post-create.sh
 RUN chmod +x /post-create.sh
