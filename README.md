@@ -21,3 +21,7 @@ An infrastructure-as-code Minecraft server for the [RPKit](https://github.com/RP
 2. You will now be in the server's filesystem. You can modify files as you wish.
 3. When you are done, run `exit` to exit the container.
 4. Run `docker-compose restart` to restart the server with your changes.
+
+## Troubleshooting
+### /post-create.sh: 25: Syntax error: end of file unexpected (expecting "then")
+This occurs when the EOF sequence for the `post-create.sh` script is CRLF. In order for the script to function, it needs to be LF.

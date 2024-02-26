@@ -95,6 +95,9 @@ RUN wget https://github.com/RP-Kit/RPKit/releases/download/v2.4.2/rpk-warp-lib-b
 COPY ./post-create.sh /post-create.sh
 RUN chmod +x /post-create.sh
 
+# Copy config directory
+COPY ./config /config
+
 # Run server
 WORKDIR /rpkmcserver
 EXPOSE 25565
