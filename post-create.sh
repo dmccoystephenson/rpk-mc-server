@@ -2,7 +2,7 @@ echo "Running 'post-create.sh' script..."
 if [ -z "$(ls -A /rpkmcserver)" ]; then
     echo "Setting up server..."
     # Copy server JAR
-    cp /rpkmcserver-build/spigot-1.19.4.jar /rpkmcserver/spigot-1.19.4.jar
+    cp /rpkmcserver-build/spigot-1.18.2.jar /rpkmcserver/spigot-1.18.2.jar
 
     # Create plugins directory
     mkdir /rpkmcserver/plugins
@@ -22,4 +22,4 @@ fi
 echo "Copying file overrides..."
 cp /deposit-box/plugin-overrides/*.jar /rpkmcserver/plugins
 
-java -jar /rpkmcserver/spigot-1.19.4.jar
+java -jar /rpkmcserver/spigot-1.18.2.jar
