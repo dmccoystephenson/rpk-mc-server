@@ -28,7 +28,7 @@ RUN wget https://github.com/dmccoystephenson/my-RPKit/releases/download/v2.3.3-1
 # RUN wget https://github.com/dmccoystephenson/my-RPKit/releases/download/v2.3.3-1.18/rpk-block-logging-bukkit-2.3.3-mc1.18-1-all.jar
 RUN wget https://github.com/dmccoystephenson/my-RPKit/releases/download/v2.3.3-1.18/rpk-character-lib-bukkit-2.3.3-mc1.18-1-all.jar
 RUN wget https://github.com/dmccoystephenson/my-RPKit/releases/download/v2.3.3-1.18/rpk-characters-bukkit-2.3.3-mc1.18-1-all.jar
-# RUN wget https://github.com/dmccoystephenson/my-RPKit/releases/download/v2.3.3-1.18/rpk-chat-bukkit-2.3.3-mc1.18-1-all.jar
+RUN wget https://github.com/dmccoystephenson/my-RPKit/releases/download/v2.3.3-1.18/rpk-chat-bukkit-2.3.3-mc1.18-1-all.jar
 RUN wget https://github.com/dmccoystephenson/my-RPKit/releases/download/v2.3.3-1.18/rpk-chat-lib-bukkit-2.3.3-mc1.18-1-all.jar
 RUN wget https://github.com/dmccoystephenson/my-RPKit/releases/download/v2.3.3-1.18/rpk-class-lib-bukkit-2.3.3-mc1.18-1-all.jar
 RUN wget https://github.com/dmccoystephenson/my-RPKit/releases/download/v2.3.3-1.18/rpk-classes-bukkit-2.3.3-mc1.18-1-all.jar
