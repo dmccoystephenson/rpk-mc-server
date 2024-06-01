@@ -94,6 +94,7 @@ RUN wget https://github.com/dmccoystephenson/my-RPKit/releases/download/v2.3.3-1
 # Download and install other plugins -----------------------------
 RUN wget https://github.com/ViaVersion/ViaVersion/releases/download/4.9.2/ViaVersion-4.9.2.jar
 RUN wget https://github.com/ViaVersion/ViaBackwards/releases/download/4.9.1/ViaBackwards-4.9.1.jar
+RUN wget https://download.luckperms.net/1543/bukkit/loader/LuckPerms-Bukkit-5.4.130.jar
 # --------------------------------------------------------
 
 # Copy post-create.sh
